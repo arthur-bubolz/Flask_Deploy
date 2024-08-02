@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(253, 168, 10);
+}
+
+img {
+    width: 240px;
+    border-radius: 50%;
+}
+
+#mainDiv {
+    text-align: center;
+    background-color: rgb(175, 159, 129);
+}

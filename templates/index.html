@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".\static\css\style.css">
+    <title>Bot Bitcoin</title>
+</head>
+<body>
+
+    <div id="mainDiv">
+        <h1>Bitcoin Oraculum</h1>
+
+        <img src="{{ url_for('static', filename='images/robot.jpg') }}" class="image" />
+        <br>
+
+        <a href="https://www.blockchaincenter.net/en/bitcoin-rainbow-chart/" target="_blank">
+            <button type="button">Verificar o gráfico de arco-íris</button>
+        </a>
+        <br><br>
+
+        <form method="POST" action="/">
+            <label for="field1">Dia 5:</label>
+            <select id="field1" name="field1">
+                <option value="Accumulate">Accumulate</option>
+                <option value="BUY!">BUY!</option>
+                <option value="FOMO intensifies">FOMO intensifies</option>
+                <option value="Fire sale!">Fire sale!</option>
+                <option value="HODL">HODL</option>
+                <option value="Is it a bubble?">Is it a bubble?</option>
+                <option value="Maximum bubble territory">Maximum bubble territory</option>
+                <option value="Sell. Seriously, sell!">Sell. Seriously, sell!</option>
+                <option value="Still cheap">Still cheap</option>
+            </select><br><br>
+
+            <label for="field2">Dia 4:</label>
+            <select id="field2" name="field2">
+                <option value="Accumulate">Accumulate</option>
+                <option value="BUY!">BUY!</option>
+                <option value="FOMO intensifies">FOMO intensifies</option>
+                <option value="Fire sale!">Fire sale!</option>
+                <option value="HODL">HODL</option>
+                <option value="Is it a bubble?">Is it a bubble?</option>
+                <option value="Maximum bubble territory">Maximum bubble territory</option>
+                <option value="Sell. Seriously, sell!">Sell. Seriously, sell!</option>
+                <option value="Still cheap">Still cheap</option>
+            </select><br><br>
+
+            <label for="field3">Dia 3:</label>
+            <select id="field3" name="field3">
+                <option value="Accumulate">Accumulate</option>
+                <option value="BUY!">BUY!</option>
+                <option value="FOMO intensifies">FOMO intensifies</option>
+                <option value="Fire sale!">Fire sale!</option>
+                <option value="HODL">HODL</option>
+                <option value="Is it a bubble?">Is it a bubble?</option>
+                <option value="Maximum bubble territory">Maximum bubble territory</option>
+                <option value="Sell. Seriously, sell!">Sell. Seriously, sell!</option>
+                <option value="Still cheap">Still cheap</option>
+            </select><br><br>
+
+            <label for="field4">Dia 2:</label>
+            <select id="field4" name="field4">
+                <option value="Accumulate">Accumulate</option>
+                <option value="BUY!">BUY!</option>
+                <option value="FOMO intensifies">FOMO intensifies</option>
+                <option value="Fire sale!">Fire sale!</option>
+                <option value="HODL">HODL</option>
+                <option value="Is it a bubble?">Is it a bubble?</option>
+                <option value="Maximum bubble territory">Maximum bubble territory</option>
+                <option value="Sell. Seriously, sell!">Sell. Seriously, sell!</option>
+                <option value="Still cheap">Still cheap</option>
+            </select><br><br>
+
+            <label for="field5">Dia 1:</label>
+            <select id="field5" name="field5">
+                <option value="Accumulate">Accumulate</option>
+                <option value="BUY!">BUY!</option>
+                <option value="FOMO intensifies">FOMO intensifies</option>
+                <option value="Fire sale!">Fire sale!</option>
+                <option value="HODL">HODL</option>
+                <option value="Is it a bubble?">Is it a bubble?</option>
+                <option value="Maximum bubble territory">Maximum bubble territory</option>
+                <option value="Sell. Seriously, sell!">Sell. Seriously, sell!</option>
+                <option value="Still cheap">Still cheap</option>
+            </select><br><br>
+
+            <button type="submit">Submeter</button>
+        </form>
+        <br><br>
+        {{ prediction }}
+        <br><br>
+    </div>
+</body>
+</html>
